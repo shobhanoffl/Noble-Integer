@@ -35,6 +35,9 @@ public class Main {
                 c++;
             }
         }
-        System.out.println(answerCount);
+        if (answerCount==0)
+            System.out.println(-1);
+        else
+            System.out.println(answerCount);
     }
 }
